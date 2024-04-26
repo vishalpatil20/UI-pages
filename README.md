@@ -45,9 +45,9 @@ npm run dev
 Once the development server is running, you can access the login/project and more page by navigating to the following URL in your browser:
 
 ```
-http://localhost:3000/login
-http://localhost:3000/project
-
+http://localhost:5174/login
+http://localhost:5174/project
+http://localhost:5174/Allproject
 ```
 
 ## Usage
