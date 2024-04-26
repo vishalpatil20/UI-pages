@@ -12,25 +12,25 @@ const CheckList_AllProjects = () => {
       <div className='text-4xl font-semibold p-8'>
         All Projects
       </div>
-      <div className="flex items-center justify-end mb-4">
-        <div className="flex pr-8">
-          <button className=" w-full text-sm bg-gray-400 rounded-full flex items-center justify-center mr-4 ">
+      <div className="flex items-center justify-end ">
+        <div className="flex pr-24">
+          <button className=" w-full text-sm  border-2 border-black bg-gray-400 rounded-full flex items-center justify-center m-2 ">
             <LuDownload />
             Download selected
           </button>
-          <button className=" w-full text-sm text-red-500 border-2 rounded-full border-red-500 flex items-center justify-center mr-4 ">
+          <button className=" w-full text-sm text-red-500 border-2 rounded-full border-red-500 flex items-center justify-center m-2 ">
             <RiDeleteBin6Line />
             Delete Selected
           </button>
-          <div className="relative flex items-center justify-end">
+        <div className="relative flex items-center justify-center">
         <input
-          type="text"
-          placeholder="Search with document"
-          className="border border-gray-600 pl-4 pr-56 py-1 rounded-md w-full flex"
-        />
-        <CiSearch className="absolute right-3 transform -translate-y-1/5 text-black text-2xl" />
+            type="text"
+            placeholder="Search with document"
+            className="border border-gray-600 rounded-md w-full flex  px-2 py-1 text-base" // Adjust size here
+            style={{ width: '250px' }} // Additional styles
+          />
+        <CiSearch className="absolute right-3 transform -translate-y-1/5 text-black text-xl" />
       </div>
-          
         </div>
         
       </div>
