@@ -7,6 +7,7 @@ import './index.css';
 import Home from './components/Home';
 import Login from './components/Login';
 import Project from './components/Project';
+import AllProjects from './components/AllProjects';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/project" element={<Project />} />
+        <Route path="/Allproject" element={<AllProjects />} />
 
         {/* <Route path="*" element={<ErrorPage />} /> */}
       </Routes>
